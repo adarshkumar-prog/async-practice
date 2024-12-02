@@ -18,3 +18,7 @@ async function fetchData(){
 }
 
 fetchData();
+// 2. Log Async Results
+// Title: Log the result of an async function.
+// Description:
+// Call the fetchData function created in the previous task. Log its result to the console.
