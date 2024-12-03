@@ -6,7 +6,7 @@ async function fetchUserData(userId){
     const p = new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("Data fetched for user "+ userId);
-        },8000);
+        },2000);
     })
     console.log(await p);
 }
