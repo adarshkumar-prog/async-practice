@@ -25,13 +25,14 @@ function returnPromise(){
     return Promise.all([p1, p2, p3, p4]);    
 }
 
-async function getPromise(){
+async function getPromiseAll(){
     try{
         console.log(await returnPromise());
     }
     catch(err){
-        console.error("Error: ", err);
+        console.error("Error: "+ err);
     }
 }
 
-getPromise();
+getPromiseAll();
+
