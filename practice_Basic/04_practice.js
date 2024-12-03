@@ -13,8 +13,7 @@ const returnPromise =function (){
 
 async function getPromise(){
     try{
-        const promise = await returnPromise();
-        console.log(promise);
+        console.log(await returnPromise());
         console.log(await returnPromise());
     }catch(err){
         console.error(err);
